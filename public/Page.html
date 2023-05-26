@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./Frontpage.js" defer></script>
+    <link rel="stylesheet" href="Format.css"/>
+    <title>PAYROLL</title>
+</head>
+<body>
+    <div id="TopBar">Employees</div>
+    <form action="http://localhost:3000/api/v1/EmployeeAddition">
+        <button class="add-btn" type="submit">
+            <i class="fas fa-add">Add New Employee</i>
+        </button>
+    </form>
+    <section class="EmployeesCase">
+        <p class="loading-text">Loading...</p>
+        <div class="revenue"></div>
+        <div class="members"></div>
+        
+    </section>  
+    
+    
+</body>
+</html>
