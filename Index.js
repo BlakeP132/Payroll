@@ -6,6 +6,8 @@ require('dotenv').config()
 const NotFound=require('./middleware/NotFound.js')
 
 
+
+
 app.use(express.static('./public'))
 app.use(express.json())
 
